@@ -1,11 +1,30 @@
+//SWITCH STATEMENT
+
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("It's Monday");
+    break;
+  case "tuesday":
+    console.log("It's Tuesday");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Write code examples");
+    break;
+  default:
+    console.log("Noob");
+}
+
 // LOGICAL OPERATORS
 
-const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
+// const hasDriversLicense = true; // A
+// const hasGoodVision = true; // B
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
 // if (hasDriversLicense && hasGoodVision) {
 //   console.log("Sarah is able to drive!");
@@ -13,14 +32,14 @@ console.log(!hasDriversLicense);
 //   console.log("Someone else should drive...");
 // }
 
-const isTired = false; // C
-console.log(hasDriversLicense && hasGoodVision && isTired);
+// const isTired = false; // C
+// console.log(hasDriversLicense && hasGoodVision && isTired);
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-  console.log("Sarah is able to drive!");
-} else {
-  console.log("Someone else should drive...");
-}
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
 
 //Equality operators == vs ===
 // const age = "18";
