@@ -5,16 +5,18 @@ function logger() {
   console.log("My name is Joan");
 }
 // Calling / Running / Invoking function
-logger();
-logger();
-logger();
+// logger();
+// logger();
+// logger();
 
 function fruitProcessor(apples, oranges) {
-  console.log(apples, oranges);
   const juice = `Juice with ${apples} apples and ${oranges} oranges!`;
   return juice;
 }
 console.log(fruitProcessor(3, 5));
+
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
 // // Strict Mode
 // "use strict";
 
