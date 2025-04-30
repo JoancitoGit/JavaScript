@@ -1,21 +1,38 @@
+// TERNARY OPERATOR
+// const age = 20;
+// age >= 18
+//   ? console.log("I like to drink wine!")
+//   : console.log("I like to drink water :D");
+
+// const drink = age >= 18 ? "Wine " : "Water";
+// console.log(drink);
+
+// let drink2;
+// if (age >= 18) {
+//   drink2 = "Wine ";
+// } else {
+//   drink2 = "Water ";
+// }
+// console.log(drink2);
+// console.log(`I like to drink ${age >= 18 ? "Wine " : "Water"}`);
 //SWITCH STATEMENT
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday":
-    console.log("It's Monday");
-    break;
-  case "tuesday":
-    console.log("It's Tuesday");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log("Write code examples");
-    break;
-  default:
-    console.log("Noob");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("It's Monday");
+//     break;
+//   case "tuesday":
+//     console.log("It's Tuesday");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("Write code examples");
+//     break;
+//   default:
+//     console.log("Noob");
+// }
 
 // LOGICAL OPERATORS
 
