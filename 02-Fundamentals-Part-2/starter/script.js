@@ -1,32 +1,57 @@
+// ARRAYS OPERATIONS
+const friends = ["Joan", "Samir", "David"];
+// ADD ELEMENTS
+const newLength = friends.push("Willy");
+console.log(friends);
+console.log(newLength);
+friends.unshift("Uriel");
+console.log(friends);
+
+// REMOVE ELEMENTS
+friends.pop();
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+const shifted = friends.shift();
+console.log(shifted);
+console.log(friends);
+
+// POSITION
+console.log(friends.indexOf("Samir"));
+console.log(friends.indexOf("BOB"));
+
+console.log(friends.includes("Samir"));
+
 //ARRAYS
 
-const friends = ["Joan", "Samir", "David"];
-console.log(friends);
+// const friends = ["Joan", "Samir", "David"];
+// console.log(friends);
 
-// const years = new Array(1991, 1966, 1961, 1996);
-console.log(friends[0]);
-console.log(friends.length);
-console.log(friends[friends - 1]);
+// // const years = new Array(1991, 1966, 1961, 1996);
+// console.log(friends[0]);
+// console.log(friends.length);
+// console.log(friends[friends - 1]);
 
-friends[2] = "Jay";
-console.log(friends);
+// friends[2] = "Jay";
+// console.log(friends);
 
-const firstName = "Jonas";
-const jonas = [firstName, "Schmedtmann", 2037 - 1991, "teacher", friends];
-console.log(jonas);
+// const firstName = "Jonas";
+// const jonas = [firstName, "Schmedtmann", 2037 - 1991, "teacher", friends];
+// console.log(jonas);
 
-const calcAge = function (birthYear) {
-  return 2037 - birthYear;
-};
-const years = [1990, 1967, 2002, 2010, 2018];
+// const calcAge = function (birthYear) {
+//   return 2037 - birthYear;
+// };
+// const years = [1990, 1967, 2002, 2010, 2018];
 
-const age1 = calcAge(years[0]);
-const age2 = calcAge(years[1]);
-const age3 = calcAge(years[2]);
-console.log(age1, age2, age3);
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[1]);
+// const age3 = calcAge(years[2]);
+// console.log(age1, age2, age3);
 
-const ages = [age1, age2, age3];
-console.log(ages);
+// const ages = [age1, age2, age3];
+// console.log(ages);
 
 //CALLING FUNCTIONS INSIDE OTHER FUNCTIONS
 
